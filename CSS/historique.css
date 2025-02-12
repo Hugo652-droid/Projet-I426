@@ -1,6 +1,21 @@
 :root{
   --main_color: rgb(138, 0, 147);
 }
+body{
+    font-family: Arial, sans-serif;
+}
+.header{
+    background-color: purple;
+    color: white;
+    text-align: left;
+    padding: 20px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
 
 table, th {
     border: 3px solid black;
