@@ -1,5 +1,5 @@
 :root{
-    --main_Color: rgba(112, 0, 165, 0.78)
+    --main_Color: rgba(112, 0, 165, 0.78);
 }
 .navbar{
     width: 100%;
