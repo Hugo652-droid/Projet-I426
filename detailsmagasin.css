@@ -13,19 +13,28 @@ body{
     margin: 0 auto;
 }
 .page {
-    width: 1000px;
+    width: 1500px;
     margin: 0 auto;
 }
-.zoneProduits {
-    width: 1000px;
-    height:400px;
+.ZoneInfo{
+    width: 1500px;
+    height:100px;
     background-color: lightgrey;
     border-radius: 3px;
-    border: black 2px;
+    border: black 1px solid;
+    margin-bottom: 25px ;
+}
+.zoneProduits {
+    width: 1500px;
+    height:600px;
+    background-color: lightgrey;
+    border-radius: 3px;
+    border: black 1px solid;
     overflow-y: scroll;
 }
 .boutonsModifierProduits {
     display: flex;
+    margin-left: 190px;
 }
 .boutonModifierProduits {
     width: 500px;
@@ -33,8 +42,8 @@ body{
     background-color: lightgrey;
     font-size: 20px;
     margin-top: 30px;
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
     border-radius: 20px;
     border-color: lightgrey;
 }
