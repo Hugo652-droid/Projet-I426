@@ -1,0 +1,24 @@
+:root{
+  --main_color: rgb(138, 0, 147);
+}
+
+table, th {
+    border: 3px solid black;
+    border-collapse: collapse;
+    column-width: 200px;
+}
+td {
+    border: 1px solid black;
+}
+th {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    background-color: var(--main_color);
+    color: white;
+}
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
