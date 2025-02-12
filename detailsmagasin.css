@@ -22,6 +22,7 @@ body{
     background-color: lightgrey;
     border-radius: 3px;
     border: black 2px;
+    overflow-y: scroll;
 }
 .boutonsModifierProduits {
     display: flex;
