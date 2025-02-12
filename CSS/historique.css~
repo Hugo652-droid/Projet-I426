@@ -1,3 +1,6 @@
+:root{
+  --main_color: rgb(138, 0, 147);
+}
 body{
     font-family: Arial, sans-serif;
 }
@@ -5,7 +8,8 @@ body{
     background-color: purple;
     color: white;
     text-align: left;
-    padding: 20px; 
+    padding: 20px;
+    margin-top: 0px;
     width: 100%;
     position: fixed;
     top: 0;
@@ -13,3 +17,27 @@ body{
     z-index: 1000;
 }
 
+
+table, th {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid black;
+    border-collapse: collapse;
+    column-width: 200px;
+}
+td {
+    border: 1px solid black;
+}
+th {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    background-color: var(--main_color);
+    color: white;
+}
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

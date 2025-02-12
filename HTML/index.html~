@@ -5,9 +5,23 @@
     <link rel="stylesheet" href="../CSS/historique.css">
     <title>Historique</title>
 </head>
-<body class="body">
 
-    <h1 class="nav-bar">Stockage</h1>
+<header>
+    <h1 class="header">Stockage</h1>
+</header>
+<body>
 
+<div class="content">
+  <div id="Logs">
+    <table>
+      <tr>
+        <th>Date</th>
+        <th>Magasin</th>
+        <th>Produit</th>
+        <th>Quantité</th>
+      </tr>
+    </table>
+  </div>
+</div>
 </body>
 </html>
