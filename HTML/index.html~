@@ -5,9 +5,9 @@
     <link rel="stylesheet" href="../CSS/historique.css">
     <title>Historique</title>
 </head>
-<body >
-    <header>
-    <h1 class="header">Stockage</h1>
-    </header>
+<body class="body">
+
+    <h1 class="nav-bar">Stockage</h1>
+
 </body>
 </html>
