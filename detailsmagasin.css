@@ -9,5 +9,30 @@
 }
 body{
     padding: 0;
-    margin: 0;
+    margin: 0 auto;
+}
+.page {
+    width: 1000px;
+    margin: 0 auto;
+}
+.zoneProduits {
+    width: 1000px;
+    height:400px;
+    background-color: lightgrey;
+    border-radius: 3px;
+    border: black 2px;
+}
+.boutonsModifierProduits {
+    display: flex;
+}
+.boutonModifierProduits {
+    width: 500px;
+    height: 50px;
+    background-color: lightgrey;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 20px;
+    border-color: lightgrey;
 }
