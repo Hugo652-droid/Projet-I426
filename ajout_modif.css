@@ -1,5 +1,10 @@
+.page_ajout_modif {
+    width: 400px;
+    margin: 50px auto 0;
+}
 .section{
     height: 700px;
     width: 400px;
     background: linear-gradient(to top, rgba(77, 0, 110, 0.78), rgba(204, 83, 255, 0.78));
+    border-radius: 15px;
 }
