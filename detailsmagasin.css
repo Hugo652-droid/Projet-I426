@@ -62,9 +62,22 @@ body{
     height: 100px;
     background-color: white;
     font-size: 20px;
-    margin-top: 50px;
-    margin-left: 85px;
-    margin-right: 85px;
+    margin: 30px 85px 20px;
     border-radius: 15px;
-    box-shadow: 5px 5px 5px black;
+    box-shadow: 2px 2px 2px black;
+    display: flex;
+}
+.details_produit {
+    margin-left: 20px;
+    font-size: 20px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+
+}
+.detail1 {
+    margin-left: 30px;
+}
+.detail2 {
+    margin-left: 30px;
+    margin-top: 10px;
 }
