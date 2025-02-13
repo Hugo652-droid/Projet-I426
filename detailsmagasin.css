@@ -32,6 +32,8 @@ body{
     border-radius: 3px;
     border: black 1px solid;
     overflow-y: scroll;
+    display: flex;
+    flex-wrap: wrap;
 }
 .boutonsModifierProduits {
     display: flex;
@@ -55,6 +57,14 @@ body{
     align-items: center;
 
 }
-#ZoneInfo p{
-
+.produit{
+    width: 550px;
+    height: 100px;
+    background-color: white;
+    font-size: 20px;
+    margin-top: 50px;
+    margin-left: 85px;
+    margin-right: 85px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px black;
 }
