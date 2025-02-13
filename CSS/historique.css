@@ -1,15 +1,18 @@
-:root{
-  --main_color: rgb(138, 0, 147);
+:root {
+    --main_color: rgb(138, 0, 147);
 }
-body{
+
+body {
     font-family: Arial, sans-serif;
+    margin: 0;
 }
-.header{
+
+.header {
     background-color: purple;
     color: white;
     text-align: left;
     padding: 20px;
-    margin-top: 0px;
+    margin-top: 0;
     width: 100%;
     position: fixed;
     top: 0;
@@ -17,24 +20,30 @@ body{
     z-index: 1000;
 }
 
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
 
-table, th {
+}
+
+table, th, td {
     border: 3px solid black;
     border-collapse: collapse;
     column-width: 200px;
+    padding: 10px;
 }
+
 td {
     border: 1px solid black;
+    padding: 50px;
 }
+
 th {
     text-align: center;
     font-size: 24px;
     font-weight: bold;
     background-color: var(--main_color);
     color: white;
-}
-.content {
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
