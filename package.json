@@ -1,22 +1,21 @@
 {
   "name": "projet-i426",
   "version": "1.0.0",
-  "description": "",
-  "homepage": "https://github.com/Hugo652-droid/Projet-I426#readme",
-  "bugs": {
-    "url": "https://github.com/Hugo652-droid/Projet-I426/issues"
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Hugo652-droid/Projet-I426.git"
   },
-  "license": "ISC",
   "author": "",
-  "type": "commonjs",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Hugo652-droid/Projet-I426/issues"
   },
+  "homepage": "https://github.com/Hugo652-droid/Projet-I426#readme",
+  "description": "",
   "dependencies": {
     "express": "^4.21.2"
   },
