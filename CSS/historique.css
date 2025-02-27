@@ -1,5 +1,5 @@
 :root {
-    --main_color: rgb(138, 0, 147);
+    --main_color: #800080;
 }
 
 body {
@@ -37,7 +37,7 @@ table {
 
 td {
     border: 1px solid black;
-    padding: 50px;
+    padding: 15px 10px 15px 10px;
 }
 
 th {
@@ -47,4 +47,7 @@ th {
     font-weight: bold;
     background-color: var(--main_color);
     color: white;
+}
+header, body {
+    font-family: Amasis MT Pro;
 }
