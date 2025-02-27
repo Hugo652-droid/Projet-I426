@@ -8,4 +8,3 @@ app.use(express.json());
 app.listen(port, () =>
     console.log(`Notre application est démarée sur : http://localhost:${port}`)
   );
-  
