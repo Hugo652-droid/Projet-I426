@@ -1,5 +1,6 @@
 :root{
     --main_Color: rgba(112, 0, 165, 0.78);
+    --main_Font: Amasis MT Pro;
 }
 .navbar{
     width: 100%;
