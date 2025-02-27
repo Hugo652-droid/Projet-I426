@@ -5,8 +5,16 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hugo652-droid/Projet-I426.git"
+  },
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Hugo652-droid/Projet-I426/issues"
+  },
+  "homepage": "https://github.com/Hugo652-droid/Projet-I426#readme",
   "description": "",
   "dependencies": {
     "express": "^4.21.2"
