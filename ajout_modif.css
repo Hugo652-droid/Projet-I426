@@ -1,0 +1,41 @@
+.body{
+    font-family: Amasis MT Pro;
+}
+.page_ajout_modif {
+    width: 400px;
+    margin: 50px auto 0;
+}
+.section{
+    height: 450px;
+    width: 400px;
+    background: linear-gradient(to top, rgba(77, 0, 110, 0.78), rgba(204, 83, 255, 0.78));
+    border-radius: 15px;
+    padding-top: 5px;
+}
+.boutonAjouterProduits{
+    width: 350px;
+    height: 50px;
+    background-color: darkslateblue;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 10px;
+    color:white;
+}
+.nom_produit_input {
+    width: 300px;
+    height: 30px;
+    font-size: 15px;
+    padding: 10px;
+    margin-top: 5px;
+    margin-left: 35px;
+}
+.texte {
+    color: white;
+    margin-left: 35px;
+    font-size: 20px;
+}
+.division_donnee {
+    margin-top: 30px;
+}
