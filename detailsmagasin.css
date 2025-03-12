@@ -1,0 +1,93 @@
+:root{
+    --main_Color: #800080;
+    --second_Color:#8c8b8c;
+    --main_Font: Amasis MT Pro;
+}
+.navbar{
+    width: 100%;
+    height: 60px;
+    background-color: var(--main_Color);
+    margin-bottom: 25px ;
+
+}
+body{
+    padding: 0;
+    margin: 0 auto;
+    background-color: black;
+    font-family: var(--main_Font);
+}
+.page {
+    width: 1500px;
+    margin: 0 auto;
+}
+.ZoneInfo{
+    width: 1500px;
+    height:100px;
+    background-color:  var(--second_Color);
+    border-radius: 3px;
+    border: black 1px solid;
+    margin-bottom: 25px ;
+    display: flex;
+}
+.zoneProduits {
+    width: 1500px;
+    height:600px;
+    background-color: var(--second_Color);
+    border-radius: 3px;
+    border: black 1px solid;
+    overflow-y: scroll;
+    display: flex;
+    flex-wrap: wrap;
+}
+.boutonsModifierProduits {
+    display: flex;
+    margin-left: 190px;
+
+}
+.boutonModifierProduits {
+    width: 500px;
+    height: 50px;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 20px;
+    border-color: lightgrey;
+    background-color: var(--main_Color);
+    font-family: var(--main_Font);
+    color: white;
+}
+.infomagasin{
+    font-weight: bold;
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    font-family: var(--main_Font);
+
+}
+.produit{
+    width: 550px;
+    height: 100px;
+    background-color: white;
+    font-size: 20px;
+    margin: 30px 85px 20px;
+    border-radius: 15px;
+    box-shadow: 2px 2px 2px black;
+    display: flex;
+}
+.details_produit {
+    margin-left: 20px;
+    font-size: 20px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+
+}
+.detail1 {
+    margin-left: 30px;
+    font-family: var(--main_Font);
+}
+.detail2 {
+    margin-left: 30px;
+    margin-top: 10px;
+
+}
