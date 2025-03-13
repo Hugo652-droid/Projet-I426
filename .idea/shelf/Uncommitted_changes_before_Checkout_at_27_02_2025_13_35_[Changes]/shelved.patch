@@ -1,0 +1,35 @@
+Index: ajout_modif.html
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><!DOCTYPE html>\r\n<html lang=\"en\">\r\n<head>\r\n    <meta charset=\"UTF-8\">\r\n    <title>ajout_modif_produit</title>\r\n    <link rel=\"stylesheet\" href=\"ajout_modif.css\"/>\r\n</head>\r\n<body>\r\n    <div class=\"page_ajout_modif\">\r\n        <div class=\"section\">\r\n            <div class=\"division_donnee\">\r\n                <div class=\"texte\">\r\n                    Nom produit\r\n                </div>\r\n                <div class=\"input\">\r\n                    <label for=\"donnee_nom\"></label>\r\n                    <input id=\"donnee_nom\" class=\"nom_produit_input\" type=\"text\">\r\n                </div>\r\n            </div>\r\n            <div class=\"division_donnee\">\r\n                <div class=\"texte\">\r\n                    Prix produit</div>\r\n                <div class=\"input\">\r\n                    <label for=\"donnee_nom\"></label>\r\n                    <input id=\"donnee_prix\" class=\"nom_produit_input\" type=\"text\">\r\n                </div>\r\n            </div>\r\n            <div class=\"division_donnee\">\r\n                <div class=\"texte\">\r\n                    Quantité produit\r\n                </div>\r\n                <div class=\"input\">\r\n                    <label for=\"donnee_nom\"></label>\r\n                    <input id=\"donnee_quantie\" class=\"nom_produit_input\" type=\"text\">\r\n                </div>\r\n                <div class=\"input\">\r\n                    <button class=\"boutonAjouterProduits\">Valider</button>\r\n                </div>\r\n            </div>\r\n        </div>\r\n    </div>\r\n</body>\r\n</html>
+===================================================================
+diff --git a/ajout_modif.html b/ajout_modif.html
+--- a/ajout_modif.html	(revision a223acc287512f42417c7257d72782fd3953cbf1)
++++ b/ajout_modif.html	(date 1740659664384)
+@@ -10,7 +10,7 @@
+         <div class="section">
+             <div class="division_donnee">
+                 <div class="texte">
+-                    Nom produit
++                    Nom du produit
+                 </div>
+                 <div class="input">
+                     <label for="donnee_nom"></label>
+@@ -19,7 +19,7 @@
+             </div>
+             <div class="division_donnee">
+                 <div class="texte">
+-                    Prix produit</div>
++                    Prix du produit</div>
+                 <div class="input">
+                     <label for="donnee_nom"></label>
+                     <input id="donnee_prix" class="nom_produit_input" type="text">
+@@ -27,7 +27,7 @@
+             </div>
+             <div class="division_donnee">
+                 <div class="texte">
+-                    Quantité produit
++                    Catégorie du produit
+                 </div>
+                 <div class="input">
+                     <label for="donnee_nom"></label>
