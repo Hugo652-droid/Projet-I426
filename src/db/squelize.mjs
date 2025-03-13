@@ -1,6 +1,8 @@
 import { Sequelize,DataTypes } from "sequelize";
 import {ProductModel} from "../model/product.mjs";
-import {products} from "./mock-produits.mjs";
+import {MagasinModel} from "../model/magasin.mjs";
+import {produits} from "./mock-produits.mjs";
+import {magasin} from "./mock-magasin.mjs";
 const sequelize = new Sequelize(
 "db_products", // Nom de la DB qui doit exister
 "root", // Nom de l'utilisateur
@@ -13,17 +15,18 @@ logging: false,
 }
 );
 const Product = ProductModel(sequelize, DataTypes);
+const Magasin = MagasinModel(sequelize, DataTypes);
 
 let initDb = () => {
     return sequelize
         .sync({alter: true}) // Force la synchro => donc supprime les données également
         .then((_) => {
-            // importProducts();
+            // importMagasins();
             console.log("La base de données a bien été synchronisée");
         });
 };
 function importProducts() {
-    products.map((p) => {
+    produits.map((p) => {
        Product.create({
            name: p.name,
            price: p.price,
@@ -32,6 +35,15 @@ function importProducts() {
        }).then((p) => console.log(p.toJSON()));
     });
 }
+function importMagasins() {
+    magasin.map((m) => {
+       Magasin.create({
+           name: m.name,
+           address: m.adresse,
+           level: m.level
+       }).then((m) => console.log(m.toJSON()));
+    });
+}
 
 
-export { sequelize, Product,initDb };
+export { sequelize, Magasin ,Product,initDb };

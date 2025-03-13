@@ -1,5 +1,6 @@
 import express from "express";
 import {productsRouter} from "./routes/produits.mjs";
+import {magasinRouter} from "./routes/magasins.mjs";
 import {initDb, sequelize} from "./db/squelize.mjs";
 
 const app = express();
@@ -24,3 +25,4 @@ app.get("/", (req, res) => {
   res.send("Hello World!");
 });
 app.use("/produits", productsRouter);
+app.use("/magasins", magasinRouter);

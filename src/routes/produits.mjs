@@ -1,5 +1,4 @@
 import express from "express";
-import { products } from "../db/mock-produits.mjs";
 import {Product} from "../db/squelize.mjs";
 
 const productsRouter = express();

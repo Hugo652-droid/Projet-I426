@@ -1,4 +1,4 @@
-let products = [
+let produits = [
     {
         id: 1,
         name: "Tomate",
@@ -8,4 +8,4 @@ let products = [
     }
 ]
 
-export { products }
+export { produits }
