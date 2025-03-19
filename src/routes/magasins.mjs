@@ -1,7 +1,7 @@
 import express from "express";
 import {Magasin} from "../db/squelize.mjs";
 
-const magasinRouter = express();
+const magasinRouter = express.Router();
 
 magasinRouter.get("/", (req, res) => {
     Magasin.findAll().then((magasins) => {
@@ -39,7 +39,7 @@ magasinRouter.put("/:id", (req, res) => {
         if (result[0] === 1) {
             res.status(204).send();
         } else {
-            res.status(404).send("Product not found");
+            res.status(404).send("Magasin not found");
         }
     });
 });
