@@ -3,6 +3,7 @@ import HomeView from '../views/HomeView.vue'
 import ListMagasin from "@/views/ListMagasin.vue";
 import HistoriqueView from "@/views/HistoriqueView.vue";
 import DetailMagasin from "@/views/DetailMagasin.vue";
+import EntrepotView from "@/views/EntrepotView.vue";
 
 const routes = [
   {
@@ -25,6 +26,11 @@ const routes = [
     name: "DetailMagasin",
     component: DetailMagasin,
 
+  },
+  {
+    path: "/Entrepot/:id",
+    name: "Entrepot",
+    component: EntrepotView,
   }
 ]
 

@@ -10,7 +10,7 @@
 <template>
   <nav-bar></nav-bar>
   <div class="p-6">
-    <h1 class="text-2xl font-bold bg-purple-700 text-white p-4">Stockage</h1>
+    <h1 class="text-2xl font-bold bg-purple-700 texlt-white p-4">Stockage</h1>
 
     <table class="w-full border-collapse border mt-6">
       <thead>

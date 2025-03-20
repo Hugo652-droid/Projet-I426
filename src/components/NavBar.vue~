@@ -7,8 +7,10 @@
       <RouterLink to="/">Items</RouterLink>
       <RouterLink to="/Historique">Historique</RouterLink>
       <RouterLink to="/ListMagasin">Magasin</RouterLink>
+      <RouterLink to="/Entrepot">Entrepot</RouterLink>
     </div>
   </div>
+  <div id="space"></div>
 </template>
 
 <script setup>
@@ -26,6 +28,10 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+
+#space {
+  height: 10px;
+}
 
 .container-header {
   position: fixed;
