@@ -29,7 +29,7 @@ export default {
 <style scoped>
 
 #space {
-  height: 10px;
+  height: 100px;
 }
 
 .container-header {

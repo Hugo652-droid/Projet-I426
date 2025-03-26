@@ -21,12 +21,4 @@ div {
   color: #FFF;
 }
 
-h1 {
-  font-family: "Poppins", serif;
-  font-weight: 600;
-  font-size: 2rem;
-  color: #FFF;
-  margin-top: 10px;
-}
-
 </style>

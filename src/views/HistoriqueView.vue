@@ -54,10 +54,10 @@ thead{
 
 }
 th{
-  border: 2px black solid;
+  border: 2px white solid;
 }
 td{
-  border: 1px black solid;
+  border: 1px white solid;
 }
 </style>
 

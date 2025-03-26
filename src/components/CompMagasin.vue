@@ -13,7 +13,7 @@ export default {
   <div>
     <h1>{{ name }}</h1>
     <h2>Stock : {{ stock }}</h2>
-    <button @click="$router.push('/Entrepot/' + id)">Acces ></button>
+    <button @click="$router.push('/DetailMagasin/' + id)">Acces ></button>
   </div>
 </template>
 

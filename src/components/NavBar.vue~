@@ -7,7 +7,6 @@
       <RouterLink to="/">Items</RouterLink>
       <RouterLink to="/Historique">Historique</RouterLink>
       <RouterLink to="/ListMagasin">Magasin</RouterLink>
-      <RouterLink to="/Entrepot">Entrepot</RouterLink>
     </div>
   </div>
   <div id="space"></div>

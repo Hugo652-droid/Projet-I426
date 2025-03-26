@@ -3,7 +3,8 @@ export default {
   name: 'CompMagasin',
   props: {
     name: String,
-    stock: Number
+    stock: Number,
+    id: Number
   }
 }
 </script>
