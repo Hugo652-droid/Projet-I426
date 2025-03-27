@@ -23,8 +23,8 @@ export default {
   top: 10vh;
   left: 0;
   background: black;
-  width: 100%;
-  height: 90%;
+  width: 90%;
+  height: auto;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
