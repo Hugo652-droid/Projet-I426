@@ -13,6 +13,8 @@ export default {
   <NavBar></NavBar>
   <div class="container">
     <CompMagasin :name="1" :stock="1"></CompMagasin>
+    <CompMagasin :name="2" :stock="2"></CompMagasin>
+    <CompMagasin :name="3" :stock="3"></CompMagasin>
   </div>
 </template>
 
