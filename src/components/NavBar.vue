@@ -6,7 +6,7 @@
     <div class="container-right poppins-regular">
       <h3>Items</h3>
       <h3>Entrepot</h3>
-      <h3>Magasin</h3>
+      <RouterLink to="/ListMagasin">Magasin</RouterLink>
     </div>
   </div>
 </template>
@@ -44,7 +44,7 @@ export default {
   align-items: center;
   gap: 30px;
   margin-right: 10px;
-
+  text-decoration: none;
 }
 
 </style>

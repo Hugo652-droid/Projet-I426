@@ -12,7 +12,7 @@ export default {
   <div>
     <h1>{{ name }}</h1>
     <h2>Stock : {{ stock }}</h2>
-    <button>Acces ></button>
+    <button><RouterLink to="/DetailMagasin">Acces > </RouterLink></button>
   </div>
 </template>
 
@@ -63,5 +63,6 @@ button {
   bottom: 10px;
   right: 10px;
   margin: 0;
+  text-decoration: none;
 }
 </style>
