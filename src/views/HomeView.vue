@@ -8,7 +8,6 @@
       <CompProductDetail :name="carrote" :price="1"></CompProductDetail>
     </div>
 
-
     <div class="boutonsModifierProduits">
       <button class="boutonModifierProduits">modifier produit</button>
       <button class="boutonModifierProduits">ajouter produit</button>

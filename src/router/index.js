@@ -5,7 +5,6 @@ import HistoriqueView from "@/views/HistoriqueView.vue";
 import DetailMagasin from "@/views/DetailMagasin.vue";
 
 
-
 const routes = [
   {
     path: '/',

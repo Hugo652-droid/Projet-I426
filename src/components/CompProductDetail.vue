@@ -30,7 +30,6 @@ export default {
   box-shadow: 2px 2px 2px black;
   display: flex;
 }
-
 .name {
   margin-left: 30px;
   font-weight: bold; 

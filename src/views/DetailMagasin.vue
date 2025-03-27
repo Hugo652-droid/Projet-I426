@@ -9,13 +9,19 @@ export default {
   },
 };
 </script>
+
 <template class="template">
   <NavBar></NavBar>
   <div class="navbar"></div>
   <div class="page">
     <div class="ZoneInfo">
-      <div class="infomagasin"><p style="margin-left: 25px">Coop du centre</p><p style="font-size: 20px; margin-left: 250px">Chemin de la gare 21 1400 Yverdon-les-Bains</p><p style="font-size: 20px; margin-left: 350px">Niveau de magasin 2</p></div>
+      <div class="infomagasin">
+        <p>Coop du centre</p>
+        <p style="margin-left: 250px">Chemin de la gare 21 1400 Yverdon-les-Bains</p>
+        <p style="margin-left: 350px">Niveau de magasin 2</p>
+      </div>
     </div>
+    
     <div class="zoneProduits">
       <CompProductDetail :name="carrote" :price="1"></CompProductDetail>
       <CompProductDetail :name="pomme" :price="2"></CompProductDetail>
@@ -84,23 +90,8 @@ export default {
   font-family: "Amasis MT Pro";
 
 }
-
-.details_produit {
-  margin-left: 20px;
+.infomagasin p{
+  margin-left: 25px;
   font-size: 20px;
-  margin-bottom: 20px;
-  margin-top: 20px;
-
 }
-.detail1 {
-  margin-left: 30px;
-  font-family: "Amasis MT Pro";
-}
-.detail2 {
-  margin-left: 30px;
-  margin-top: 10px;
-
-}
-
-
 </style>
