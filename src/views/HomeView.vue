@@ -20,11 +20,14 @@
 <script>
 // @ is an alias to /src
 import NavBar from "@/components/NavBar.vue";
+import CompProductDetail from "@/components/CompProductDetail.vue";
 
 export default {
   name: 'HomeView',
   components: {
-    NavBar,}
+    NavBar,
+    CompProductDetail,
+  }
 }
 </script>
 
@@ -43,6 +46,7 @@ export default {
   overflow-y: scroll;
   display: flex;
   flex-wrap: wrap;
+  color: black;
 }
 .boutonsModifierProduits {
   display: flex;
@@ -68,23 +72,6 @@ export default {
   display: flex;
   align-items: center;
   font-family: "Amasis MT Pro";
-
-}
-
-.details_produit {
-  margin-left: 20px;
-  font-size: 20px;
-  margin-bottom: 20px;
-  margin-top: 20px;
-
-}
-.detail1 {
-  margin-left: 30px;
-  font-family: "Amasis MT Pro";
-}
-.detail2 {
-  margin-left: 30px;
-  margin-top: 10px;
 
 }
 </style>

@@ -10,14 +10,12 @@ export default {
 
 <template>
   <div class="produit">
-    <div class="details_produit">
-      <div class="detail1" style="font-weight: bold; font-size: 25px">
+      <div class="name">
         {{ name }}
       </div>
-      <div class="detail2">
+      <div class="price">
         {{ price }} CHF/kg
       </div>
-    </div>
   </div>
 </template>
 
@@ -33,11 +31,12 @@ export default {
   display: flex;
 }
 
-.detail1 {
+.name {
   margin-left: 30px;
-  font-family: "Amasis MT Pro";
+  font-weight: bold; 
+  font-size: 25px;
 }
-.detail2 {
+.price {
   margin-left: 30px;
   margin-top: 10px;
 }

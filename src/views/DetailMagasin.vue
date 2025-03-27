@@ -56,6 +56,7 @@ export default {
   overflow-y: scroll;
   display: flex;
   flex-wrap: wrap;
+  color: black;
 }
 .boutonsModifierProduits {
   display: flex;
