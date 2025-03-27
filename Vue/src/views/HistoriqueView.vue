@@ -1,5 +1,5 @@
 <script >
-  import NavBar from "@/components/NavBar.vue";
+import NavBar from "@/components/NavBar.vue";
   export default {
     components: {
       NavBar,
@@ -8,7 +8,7 @@
 </script>
 
 <template>
-  <nav-bar></nav-bar>
+  <NavBar></NavBar>
   <div class="p-6">
     <h1 class="text-2xl font-bold bg-purple-700 texlt-white p-4">Stockage</h1>
 
@@ -44,7 +44,7 @@ const stockData = ref([
 
 <style scoped>
 table {
-  width: 50%;
+  width: 80%;
   margin: auto;
 
 }

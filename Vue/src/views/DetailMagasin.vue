@@ -32,9 +32,6 @@ export default {
 </template>
 
 <style scoped>
-#app {
-  background-color: black;
-}
 .page {
   width: 1500px;
   margin: 0 auto;
@@ -59,6 +56,7 @@ export default {
   overflow-y: scroll;
   display: flex;
   flex-wrap: wrap;
+  color: black;
 }
 .boutonsModifierProduits {
   display: flex;
