@@ -1,0 +1,23 @@
+Index: ajout_modif.html
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><!DOCTYPE html>\r\n<html lang=\"en\">\r\n<head>\r\n    <meta charset=\"UTF-8\">\r\n    <title>ajout_modif_produit</title>\r\n    <link rel=\"stylesheet\" href=\"ajout_modif.css\"/>\r\n</head>\r\n<body>\r\n    <div class=\"page_ajout_modif\">\r\n        <div class=\"section\">\r\n            <button class=\"boutonAjouterProduits\">Valider</button>\r\n        </div>\r\n        <div class=\"section\">\r\n            <div class=\"input\">\r\n                <label for=\"film_input1\"></label>\r\n                <input id=\"film_input1\" class=\"nom_film_input\" type=\"text\">\r\n            </div>\r\n        </div>\r\n    </div>>\r\n</body>\r\n</html>
+===================================================================
+diff --git a/ajout_modif.html b/ajout_modif.html
+--- a/ajout_modif.html	(revision b287cf98da691ae8b114f74d95c8b650f05bde6e)
++++ b/ajout_modif.html	(date 1739455777176)
+@@ -8,13 +8,11 @@
+ <body>
+     <div class="page_ajout_modif">
+         <div class="section">
+-            <button class="boutonAjouterProduits">Valider</button>
+-        </div>
+-        <div class="section">
+             <div class="input">
+                 <label for="film_input1"></label>
+                 <input id="film_input1" class="nom_film_input" type="text">
+             </div>
++            <button class="boutonAjouterProduits">Valider</button>
+         </div>
+     </div>>
+ </body>
