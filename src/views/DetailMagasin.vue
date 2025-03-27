@@ -32,9 +32,6 @@ export default {
 </template>
 
 <style scoped>
-#app {
-  background-color: black;
-}
 .page {
   width: 1500px;
   margin: 0 auto;

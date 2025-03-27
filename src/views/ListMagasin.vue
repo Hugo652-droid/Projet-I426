@@ -22,7 +22,6 @@ export default {
   position: absolute;
   top: 10vh;
   left: 0;
-  background: black;
   width: 90%;
   height: auto;
   display: flex;
