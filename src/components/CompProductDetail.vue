@@ -40,6 +40,5 @@ export default {
 .detail2 {
   margin-left: 30px;
   margin-top: 10px;
-
 }
 </style>

@@ -1,8 +1,6 @@
 <template>
   <NavBar></NavBar>
 
-
-
 </template>
 
 <script>
